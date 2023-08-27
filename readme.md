@@ -5,7 +5,9 @@
 [![CI](https://github.com/your_name/your_asset_name/actions/workflows/ci.yaml/badge.svg)](https://github.com/your_name/your_asset_name/actions/workflows/ci.yaml)
 
 # Description
-A template for creating a Bevy asset package
+A template to get you quickly started with a Bevy asset package
+
+For more info on third party assets/plugins read https://github.com/bevyengine/bevy/blob/main/docs/plugins_guidelines.md
 
 # Bevy compatibility table
 | your_asset_name | bevy |
