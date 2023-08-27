@@ -8,7 +8,6 @@ authors = ["your_name <name@mail.com>"]
 description = "Description"
 repository = "https://github.com/your_name/your_asset_name"
 homepage = "https://github.com/your_name/your_asset_name"
-documentation = "https://docs.rs/your_asset_name"
 keywords = ["bevy", "keywords"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"

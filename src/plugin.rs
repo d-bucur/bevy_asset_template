@@ -1,5 +1,6 @@
 use bevy::prelude::*;
-use your_asset_name::MyPlugin;
+
+pub struct MyPlugin;
 
 impl Plugin for MyPlugin {
     fn build(&self, app: &mut App) {
