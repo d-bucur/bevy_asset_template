@@ -1,0 +1,32 @@
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name = "your_asset_name"
+version = "0.1.0"
+edition = "2021"
+authors = ["your_name <name@mail.com>"]
+description = "Description"
+repository = "https://github.com/your_name/your_asset_name"
+homepage = "https://github.com/your_name/your_asset_name"
+documentation = "https://docs.rs/your_asset_name"
+keywords = ["bevy", "keywords"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+categories = ["game-development"]
+
+[dependencies]
+bevy = { version = "0.11.2", default-features = false }
+
+[dev-dependencies.bevy]
+version = "0.11.2"
+default-features = false
+
+[features]
+# features activated by default
+default = ["bevy/bevy_core_pipeline"]
+# features needed to run examples
+example = ["bevy/default"]
+
+[[example]]
+name = "example"
+required-features = ["example"]
